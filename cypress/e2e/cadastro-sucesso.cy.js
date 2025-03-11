@@ -2,6 +2,7 @@ import { fakerPT_BR as faker } from '@faker-js/faker';
 describe('Página de cadastro', () => {
     beforeEach(() => {
         cy.visit('/');
+        cy.log('teste')
     })
 
     context('Testes na página de cadastro', () => {
